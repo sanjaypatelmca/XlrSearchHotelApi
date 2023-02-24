@@ -1,0 +1,27 @@
+{
+    "name": "xlr8rms/hotelsearchapi",
+    "description": "This package built for exercise purpose only and it will provide feauture to search hotels near by location or by price.",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": ">=7.5",
+        "laravel/framework": "^8.75"
+    },
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Xlr8rms\\Hotelsearchapi\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sanjay Patel",
+            "email": "patelsanjaymca@gmail.com"
+        }
+    ]    
+}
